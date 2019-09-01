@@ -1,6 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './components/App';
-import './fetch-setup';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./components/App";
+import "./fetch-setup";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// Find the element with the id of root and place App inside of it
+ReactDOM.render(<App />, document.getElementById("root"));

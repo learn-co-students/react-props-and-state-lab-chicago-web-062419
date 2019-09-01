@@ -41,6 +41,8 @@ working our way down through all its descendants:
 - App should pass a **callback** prop, `onChangeType`, to `<Filters />`. This
   callback needs to update `<App />`'s `state.filters.type`
 
+<!-- A callback is a function. We need to pass it as a prop to filters -->
+
 - `<Filters />` needs a **callback** prop, `onFindPetsClick`. When the
   `<Filters />` component calls `onFindPetsClick`, `<App />` should fetch a list
   of pets using `fetch()`.
